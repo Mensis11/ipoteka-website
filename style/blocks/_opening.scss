@@ -1,5 +1,10 @@
 main{
     .opening{
+
+        &__content{
+            display: flex;
+            justify-content: space-between;
+        }
         margin-top: 200px;
         &__title{
             font-size: 36px;
@@ -26,6 +31,12 @@ main{
         &__button:hover{
             background: #5F63A4;
         }
+        &__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
+        
 
 }
